@@ -8,7 +8,7 @@ const {Buffer} = require('buffer');
 const {createServer} = require('http');
 const {WebSocketServer, createWebSocketStream} = require('ws');
 
-const UUID = process.env.UUID || '10889da6-14ea-4cc8-97fa-6c0bc410f121';
+const UUID = process.env.UUID || '084db85c-0729-4c6b-a6dc-6802f7ab0937';
 const DOMAIN = process.env.DOMAIN || 'example.com';
 const PORT = process.env.PORT || 3000;
 const REMARKS = process.env.REMARKS || 'nodejs-vless';
